@@ -1,1 +1,28 @@
-screenshots/screenshots.docx
+# Ignoriši ceo screenshots folder
+screenshots/
+
+# Ignoriši sve .docx fajlove, ako ne želiš da verzionišeš Word dokumente
+*.docx
+~$*.docx
+
+# VS Code folder sa podešavanjima
+.vscode/
+
+# Sistem fajlovi Windows-a
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Fajlovi koje pravi Word kada je dokument otvoren
+~$*
+
+# Python fajlovi iz keš memorije
+__pycache__/
+*.py[cod]
+
+# Virtualno okruženje (ako koristiš)
+venv/
+env/
+
+# Git ignorisanje samog .gitignore fajla (nije potrebno ali informativno)
+!.gitignore
